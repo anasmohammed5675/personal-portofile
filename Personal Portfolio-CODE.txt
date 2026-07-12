@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anas Mohammed | Personal Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#0077cc;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+section{
+    max-width:900px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+h2{
+    color:#0077cc;
+    margin-bottom:15px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+.project{
+    background:#eef5fb;
+    padding:15px;
+    margin-top:15px;
+    border-radius:8px;
+}
+
+footer{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Anas Mohammed</h1>
+    <p>Cyber Security Student</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+
+<p>
+Hello! My name is <b>Anas Mohammed</b>. I am a Cyber Security student
+who is passionate about protecting computer systems and networks.
+I enjoy learning about ethical hacking, network security,
+and digital protection. My goal is to improve my technical skills
+and build secure systems that help protect information.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<ul>
+<li>Network Security</li>
+<li>Ethical Hacking Basics</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript Basics</li>
+<li>Problem Solving</li>
+<li>Linux Basics</li>
+</ul>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project">
+<h3>Personal Portfolio Website</h3>
+<p>
+A responsive personal website built using HTML and CSS to present
+my profile, skills, and projects.
+</p>
+</div>
+
+<div class="project">
+<h3>Password Strength Checker</h3>
+<p>
+A simple application that checks password strength based on
+security rules.
+</p>
+</div>
+
+<div class="project">
+<h3>Network Scanner</h3>
+<p>
+A basic cybersecurity project used to discover devices connected
+to a local network.
+</p>
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p><strong>Name:</strong> Anas Mohammed</p>
+<p><strong>Field:</strong> Cyber Security</p>
+<p><strong>Email:</strong> abumedrah-anas@outlook.com</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Anas Mohammed | Personal Portfolio</p>
+
+</footer>
+
+</body>
+</html>
